@@ -36,7 +36,7 @@ The provided sql can  <br>
 1). create noise buffers with different distances, taking into account the considered tags  <br>
 2). do intersection operations between ways and buffers to get the noise level  <br>
 
-#### 4. Some preliminary results (from osm data of Berlin)
+#### 4. Some preliminary results (based on osm data of Berlin)
 A generated noise map can be found below.
 <p align="center"">
    <img src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/berlin.PNG" width="100%" />

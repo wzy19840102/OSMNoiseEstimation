@@ -4,7 +4,9 @@ With the development of urbanization, **noise pollution** is a major issue in ma
    <div style="text-align: center"> <img width="600" height="500" src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" /></div>
 
 
-
+<p align="center"">
+   <img src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" width="100%" />
+</p>
 
 ####  1. Defing noise levels
 The noise levels are defined 

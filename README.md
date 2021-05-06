@@ -33,4 +33,4 @@ The provided sql can  <br>
 
 #### 4. Some preliminary results (from osm data of Berlin)
 The generated noise map can be found below.
-<img width="500"  src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/berlin.PNG" />
+<img width="700"  src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/berlin.PNG" />

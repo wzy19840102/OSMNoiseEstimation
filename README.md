@@ -3,7 +3,7 @@ With the development of urbanization, **noise pollution** is a major issue in ma
 
 Traffic noise            |  Industry noise
 :-------------------------:|:-------------------------:
-<img width="600" height="500"  src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" /> |  <img width="600" height="500"   src="https://github.com/wzy19840102/OSMGreenBlueSpace/blob/main/fig/green.jpg" />
+<img width="600" height="400"  src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" /> |  <img width="600" height="400"   src="https://github.com/wzy19840102/OSMGreenBlueSpace/blob/main/fig/green.jpg" />
 photo from https://unsplash.com/ |  photo from https://unsplash.com/ 
 
 

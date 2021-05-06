@@ -3,7 +3,7 @@ With the development of urbanization, **noise pollution** is a major issue in ma
 
 
 <p align="center"">
-   <img src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" width="70%" />
+   <img src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" width="50%" />
 </p>
 
 ####  1. Defing noise levels

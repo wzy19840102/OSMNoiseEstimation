@@ -17,7 +17,7 @@ L2 55 - 64.9 <br>
 L1 45 - 54.9 <br>
 L0 <45 <br>
 
-####  2. Considered Tags
+####  2. Considered OSM Tags
 1\). Roads: <br>
 highway= motorway, motorway_link, 60m (L3), 220m (L2), 550m (L1) <br>
 highway= trunk, trunk_link, 50m (L3), 190m (L2), 400m (L1) <br>

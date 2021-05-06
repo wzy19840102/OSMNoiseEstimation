@@ -4,31 +4,30 @@ With the development of urbanization, **noise pollution** is a major issue in ma
 ####  1. Defing noise levels
 The noise levels are defined 
 and totally there are four noise levels. Note that the order of levels are reversed to make data processing easier.
-Zone dB
-L3 ≥ 65
-L2 55 - 64.9
-L1 45 - 54.9
-L0 <45
+Zone dB <br>
+L3 ≥ 65 <br>
+L2 55 - 64.9 <br>
+L1 45 - 54.9 <br>
+L0 <45 <br>
 
 ####  2. Considered Tags
-1). Roads:
-highway= motorway, motorway_link, 60m (L3), 220m (L2), 550m (L1)
-highway= trunk, trunk_link, 50m (L3), 190m (L2), 400m (L1)
-highway=primiary, primary_link, 35m (L3), 160m (L2), 300m (L1)
-highway=secondary, secondary_link, 80m (L2), 125m (L1)
-highway=tertiary, tertiary_link， 35m (L2), 65m (L1)
-2). Areas
-industry= industrial 50m(L2) 100m(L1)
-landuse=retail 70m(L2) 180m(L1)
-3). railways
-rail=[rail, narrow_gauge, preserved] 30m(L3) 60m(L2) 100m(L1)
-rail=[light_rail, tram, funicular, monorail] 30m(L2) 60m(L1)
+1\). Roads: <br>
+highway= motorway, motorway_link, 60m (L3), 220m (L2), 550m (L1) <br>
+highway= trunk, trunk_link, 50m (L3), 190m (L2), 400m (L1) <br>
+highway=primiary, primary_link, 35m (L3), 160m (L2), 300m (L1) <br>
+highway=secondary, secondary_link, 80m (L2), 125m (L1) <br>
+highway=tertiary, tertiary_link， 35m (L2), 65m (L1) <br>
+2\). Areas <br>
+industry= industrial 50m(L2) 100m(L1) <br>
+landuse=retail 70m(L2) 180m(L1) <br>
+3\). railways <br>
+rail=[rail, narrow_gauge, preserved] 30m(L3) 60m(L2) 100m(L1) <br>
+rail=[light_rail, tram, funicular, monorail] 30m(L2) 60m(L1) <br>
 
 #### 3. Sql for noise data extraction
-The sql can be found via the following link
-https://gitlab.gistools.geog.uni-heidelberg.de/giscience/openrouteservice/tools/blob/Noise4Routing/noise4routing/noise_extractor.sql
-1). create noise buffers with different distances, taking into account the considered tags
-2). do intersection operations between ways and buffers to get the noise level
+The provided sql can  <br>
+1). create noise buffers with different distances, taking into account the considered tags  <br>
+2). do intersection operations between ways and buffers to get the noise level  <br>
 
 #### 4. Some preliminary results (from osm data of Berlin)
 The results can be found below.

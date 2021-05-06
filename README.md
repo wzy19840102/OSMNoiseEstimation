@@ -4,9 +4,6 @@ With the development of urbanization, **noise pollution** is a major issue in ma
    <div style="text-align: center"> <img width="600" height="500" src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" /></div>
 
 
-{:refdef: style="text-align: center;"}
-![My Image]({{ site.baseimg }}/images/example1.png)
-{: refdef}
 
 
 ####  1. Defing noise levels

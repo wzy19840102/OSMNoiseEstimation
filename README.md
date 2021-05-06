@@ -1,11 +1,9 @@
 # OSMNoiseEstimation
 With the development of urbanization, **noise pollution** is a major issue in many big cities. One major source of urban noise is traffic-related noise, which is mainly caused by traffic flows. Besides traffic noise, urban noise can also be generated from other sources, e.g., industrial areas and construction sites. This work is inspired by the work of https://github.com/lukasmartinelli/osm-noise-pollution, and here we focus on using PostGIS (https://postgis.net/) to generate noise pollution maps from OpenStreetMap (https://www.openstreetmap.org/).  
 
-   <div style="text-align: center"> <img width="600" height="500" src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" /></div>
-
 
 <p align="center"">
-   <img src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" width="100%" />
+   <img src="https://github.com/wzy19840102/OSMNoiseEstimation/blob/main/fig/noise.jpg" width="70%" />
 </p>
 
 ####  1. Defing noise levels

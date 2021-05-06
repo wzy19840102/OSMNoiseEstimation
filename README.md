@@ -1,2 +1,34 @@
 # OSMNoiseEstimation
-Noise Estimation from OpenStreetMap using PostGIS
+With the development of urbanization, **noise pollution** is a major issue in many big cities. One major source of urban noise is traffic-related noise. Furthermore, traffic noise is highlycaused by traffic intensity. Besides traffic noise emissions, noise can also be generated from other sources, e.g. industrial areas and construction sites. This work is inspired by the work of https://github.com/lukasmartinelli/osm-noise-pollution, and here we focus on using using PostGIS (https://postgis.net/) to generate noise pollution maps from OpenStreetMap.  
+
+####  1. Defing noise levels
+The noise levels are defined 
+and totally there are four noise levels. Note that the order of levels are reversed to make data processing easier.
+Zone dB
+L3 ≥ 65
+L2 55 - 64.9
+L1 45 - 54.9
+L0 <45
+
+####  2. Considered Tags
+1). Roads:
+highway= motorway, motorway_link, 60m (L3), 220m (L2), 550m (L1)
+highway= trunk, trunk_link, 50m (L3), 190m (L2), 400m (L1)
+highway=primiary, primary_link, 35m (L3), 160m (L2), 300m (L1)
+highway=secondary, secondary_link, 80m (L2), 125m (L1)
+highway=tertiary, tertiary_link， 35m (L2), 65m (L1)
+2). Areas
+industry= industrial 50m(L2) 100m(L1)
+landuse=retail 70m(L2) 180m(L1)
+3). railways
+rail=[rail, narrow_gauge, preserved] 30m(L3) 60m(L2) 100m(L1)
+rail=[light_rail, tram, funicular, monorail] 30m(L2) 60m(L1)
+
+#### 3. Sql for noise data extraction
+The sql can be found via the following link
+https://gitlab.gistools.geog.uni-heidelberg.de/giscience/openrouteservice/tools/blob/Noise4Routing/noise4routing/noise_extractor.sql
+1). create noise buffers with different distances, taking into account the considered tags
+2). do intersection operations between ways and buffers to get the noise level
+
+#### 4. Some preliminary results (from osm data of Berlin)
+The results can be found below.

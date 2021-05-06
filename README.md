@@ -1,5 +1,7 @@
 # OSMNoiseEstimation
-With the development of urbanization, **noise pollution** is a major issue in many big cities. One major source of urban noise is traffic-related noise, which is mainly caused by traffic flows. Besides traffic noise, urban noise can also be generated from other sources, e.g., industrial areas and construction sites. This work is inspired by the work of https://github.com/lukasmartinelli/osm-noise-pollution, and here we focus on using PostGIS (https://postgis.net/) to generate noise pollution maps from OpenStreetMap.  
+With the development of urbanization, **noise pollution** is a major issue in many big cities. One major source of urban noise is traffic-related noise, which is mainly caused by traffic flows. Besides traffic noise, urban noise can also be generated from other sources, e.g., industrial areas and construction sites. This work is inspired by the work of https://github.com/lukasmartinelli/osm-noise-pollution, and here we focus on using PostGIS (https://postgis.net/) to generate noise pollution maps from OpenStreetMap (https://www.openstreetmap.org/).  
+
+<img width="600" height="700"  src="https://github.com/vitality-data-center/environmental_factors/blob/master/images/road.png" />
 
 ####  1. Defing noise levels
 The noise levels are defined 
@@ -31,3 +33,4 @@ The provided sql can  <br>
 
 #### 4. Some preliminary results (from osm data of Berlin)
 The results can be found below.
+<img width="600" height="700"  src="https://github.com/vitality-data-center/environmental_factors/blob/master/images/road.png" />
